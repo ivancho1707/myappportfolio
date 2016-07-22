@@ -12,14 +12,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Nanodegree Apps!"
+        android:text="@string/label"
         android:layout_centerHorizontal="true"
         android:id="@+id/textView"
-        android:layout_above="@id/button1"/>
+        android:textSize="22dp"
+        android:layout_above="@+id/button1"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Popular Movies"
+        android:text="@string/button1"
         android:id="@+id/button1"
         android:layout_above="@+id/button2"
         android:layout_centerVertical="true"
@@ -27,7 +28,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stock Hawk"
+        android:text="@string/button2"
         android:id="@+id/button2"
         android:layout_above="@+id/button3"
         android:layout_centerVertical="true"
@@ -36,14 +37,14 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Build it Bigger"
+        android:text="@string/button3"
         android:id="@+id/button3"
         android:layout_centerInParent="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Make Your App Material"
+        android:text="@string/button4"
         android:id="@+id/button4"
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true" />
@@ -51,7 +52,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go Ubiquitous"
+        android:text="@string/button5"
         android:id="@+id/button5"
         android:layout_below="@+id/button4"
         android:layout_centerVertical="true"
@@ -60,7 +61,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Capstone"
+        android:text="@string/button6"
         android:id="@+id/button6"
         android:layout_below="@+id/button5"
         android:layout_centerHorizontal="true" />

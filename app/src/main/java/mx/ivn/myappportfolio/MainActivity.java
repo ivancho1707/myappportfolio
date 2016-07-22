@@ -1,7 +1,6 @@
 package mx.ivn.myappportfolio;
 
 import android.content.Context;
-import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -58,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showToast(Button b){
         Context context = getApplicationContext();
-        CharSequence text = "This button will launch my " + b.getText().toString() + "app";
+        CharSequence text = "This button will launch my " + b.getText().toString() + " app";
         Toast toast = Toast.makeText(context, text, Toast.LENGTH_SHORT);
         toast.show();
     }
